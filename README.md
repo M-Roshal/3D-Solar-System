@@ -28,5 +28,3 @@ This project provides a 3D visualization of the solar system, illustrating the p
 ## Orbital Mechanics
 The simulation uses Kepler's laws of planetary motion and Newton's law of universal gravitation to calculate the movement of each planet. The position of each planet is updated in real-time based on its orbital parameters.
 
-## Acknowledgments
-This project was inspired by various astronomical visualizations available online and aims to provide an educational tool for learning about celestial mechanics.
