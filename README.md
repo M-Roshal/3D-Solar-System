@@ -1,49 +1,32 @@
 # 3D Solar System Visualization
 
 ## Project Overview
-
-The 3D Solar System Visualization project provides an interactive 3D model of the solar system, showcasing the planets, their moons, and other celestial objects. The visualization allows users to explore the solar system in a dynamic and engaging way.
+This project provides a 3D visualization of the solar system, illustrating the positions and movements of planets around the sun.
 
 ## Features
+- Realistic rendering of planets and orbits.
+- User controls to manipulate the view.
+- Simulation of orbital mechanics based on gravitational interactions.
 
-- **Interactive Visualization**: Users can interact with the 3D model to rotate, zoom, and explore different celestial bodies.
-- **Realistic Scale**: The model represents the scale and distances between planets accurately, offering an educational experience on the structure of our solar system.
-- **Information Panels**: Clickable objects present detailed information about each planet, moon, and other features.
+## Dependencies
+- Python 3.x
+- Pygame
+- NumPy
+- Matplotlib
 
-## Technologies Used
-
-- **Three.js**: A JavaScript library for creating 3D graphics in the browser.
-- **WebGL**: A web standard for rendering 2D and 3D graphics.
-- **HTML/CSS**: For structuring and designing the web interface.
-- **JavaScript**: For interactive functionalities and animations.
-
-## Setup Instructions
-
-1. Clone the repository:
+## How to Run
+1. Ensure you have Python 3.x installed.
+2. Install the required dependencies:
    ```bash
-   git clone https://github.com/M-Roshal/3D-Solar-System.git
-   cd 3D-Solar-System
+   pip install pygame numpy matplotlib
    ```
-2. Open `index.html` in your web browser to view the 3D visualization.
+3. Run the simulation:
+   ```bash
+   python solar_system.py
+   ```
 
-## Usage
+## Orbital Mechanics
+The simulation uses Kepler's laws of planetary motion and Newton's law of universal gravitation to calculate the movement of each planet. The position of each planet is updated in real-time based on its orbital parameters.
 
-- Use your mouse to drag and rotate the scene.
-- Scroll to zoom in and out.
-- Click on objects to learn more about them.
-
-## Contributions
-
-Contributions are welcome! Please fork the repository and submit a pull request if you would like to contribute to the project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For inquiries, please reach out to me at [example@example.com](mailto:example@example.com).
-
----
-
-Feel free to customize this README.md file to suit your project's unique needs.
+## Acknowledgments
+This project was inspired by various astronomical visualizations available online and aims to provide an educational tool for learning about celestial mechanics.
